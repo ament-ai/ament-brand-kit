@@ -1,0 +1,55 @@
+/* AMENT design tokens v1.0.0 — CSS custom properties.
+ * Same values as ament.ai and AMENT Hive. Import once, then use var(--ament-*). */
+:root {
+  --ament-graphite: #0d0d0c;
+  --ament-graphite-2: #161614;
+  --ament-graphite-3: #22211e;
+  --ament-ink: #141412;
+  --ament-ink-2: #22211e;
+  --ament-ink-3: #3c3a35;
+  --ament-paper: #efece6;
+  --ament-paper-2: #e5e1d8;
+  --ament-card: #fbfaf7;
+  --ament-line: #ddd8cd;
+  --ament-line-strong: #c7c0b2;
+  --ament-muted: #67625a;
+  --ament-faint: #7d776d;
+  --ament-champagne: #cdb89a;
+  --ament-champagne-deep: #6f5d47;
+  --ament-champagne-soft: #f2ece2;
+  --ament-moss: #2c493d;
+  --ament-moss-2: #3f6152;
+  --ament-moss-soft: #e3ebe6;
+  --ament-ok: #3a6b52;
+  --ament-ok-soft: #e3ede6;
+  --ament-info: #2e5a78;
+  --ament-info-soft: #e3ebf1;
+  --ament-danger: #a8432f;
+  --ament-danger-soft: #f5e5df;
+
+  /* Logo-only colours (the mark's gradients). Do not use for UI. */
+  --ament-mark-champagne-light: #efe3d1;
+  --ament-mark-champagne-mid: #c9b496;
+  --ament-mark-champagne-dark: #8d7a62;
+  --ament-mark-green-light: #3f6152;
+  --ament-mark-green-mid: #2c493d;
+  --ament-mark-green-dark: #1d3229;
+  --ament-mark-flat-band: #46695a;
+  --ament-mark-flat-fold: #2c493d;
+  --ament-mark-flat-arch: #d6c4a6;
+
+  --ament-font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --ament-font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --ament-display-stretch: 118%;
+  --ament-display-tracking: -0.02em;
+  --ament-eyebrow-tracking: 0.16em;
+
+  --ament-radius-control: 8px;
+  --ament-radius-card: 12px;
+  --ament-shadow-card: 0 1px 0 rgb(20 20 18 / 0.04), 0 1px 2px rgb(20 20 18 / 0.04);
+  --ament-shadow-lift: 0 1px 0 rgb(20 20 18 / 0.04), 0 8px 24px -8px rgb(20 20 18 / 0.14);
+
+  --ament-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ament-duration-fast: 150ms;
+  --ament-duration-slow: 300ms;
+}

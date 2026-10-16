@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AMENT Brand Kit</title>
+<meta name="description" content="Official logos, colours, typography and guidelines for AMENT and AMENT Hive.">
+<link rel="icon" href="app-icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="app-icons/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="app-icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="colors/tokens.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--ament-paper); color: var(--ament-ink);
+    font-family: var(--ament-font-sans); font-size: 15px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ament-champagne-deep); text-underline-offset: 3px; }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+  .eyebrow { font-family: var(--ament-font-mono); font-size: 11px; line-height: 1.2; letter-spacing: .16em; text-transform: uppercase; color: var(--ament-muted); }
+  .display { font-stretch: 118%; letter-spacing: -0.02em; font-weight: 600; }
+  .hairline { border-top: 1px solid var(--ament-line); }
+
+  /* header */
+  .hero {
+    background: var(--ament-graphite); color: var(--ament-paper);
+    background-image: repeating-linear-gradient(to bottom, rgb(255 255 255 / .025) 0 1px, transparent 1px 6px);
+  }
+  .hero .bar { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; }
+  .hero .bar .eyebrow { color: var(--ament-faint); }
+  .hero .bar .eyebrow:first-child { color: var(--ament-champagne); }
+  .hero .lockup { padding: 96px 0 72px; }
+  .hero .lockup img { width: min(560px, 100%); height: auto; }
+  .hero h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.08; margin: 56px 0 12px; color: #fff; }
+  .hero p { margin: 0 0 72px; max-width: 56ch; color: #b9b3a8; }
+  .hero nav { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 20px 0 28px; border-top: 1px solid rgb(255 255 255 / .08); }
+  .hero nav a { color: var(--ament-paper); text-decoration: none; font-family: var(--ament-font-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; opacity: .7; transition: opacity 200ms var(--ament-ease); }
+  .hero nav a:hover { opacity: 1; }
+
+  section { padding: 80px 0 24px; }
+  section > .wrap > header { display: grid; grid-template-columns: 180px 1fr; gap: 24px; margin-bottom: 32px; }
+  section h2 { margin: 0; font-size: 28px; line-height: 1.1; }
+  section header p { margin: 8px 0 0; color: var(--ament-muted); max-width: 62ch; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); }
+  .tile { border-radius: 12px; overflow: hidden; background: var(--ament-card); box-shadow: 0 0 0 1px var(--ament-line), var(--ament-shadow-card); }
+  .tile.dark { background: var(--ament-graphite-2); box-shadow: none; }
+  .tile .art { aspect-ratio: 16 / 10; display: grid; place-items: center; padding: 14% 18%; }
+  .tile .art img { max-height: 100%; width: auto; max-width: 100%; }
+  .tile .meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 18px; border-top: 1px solid var(--ament-line); }
+  .tile.dark .meta { border-top-color: rgb(255 255 255 / .07); }
+  .tile.dark .eyebrow { color: var(--ament-faint); }
+  .tile .meta span:last-child { white-space: nowrap; }
+  .tile .meta a { font-family: var(--ament-font-mono); font-size: 11px; letter-spacing: .08em; text-decoration: none; }
+  .tile.dark .meta a { color: var(--ament-champagne); }
+
+  .swatches { display: grid; gap: 16px; grid-template-columns: repeat(4, 1fr); }
+  .sw { border-radius: 12px; min-height: 168px; padding: 18px; display: flex; flex-direction: column; justify-content: flex-end; box-shadow: inset 0 0 0 1px rgb(20 20 18 / .06); }
+  .sw b { font-weight: 600; font-size: 17px; }
+  .sw code { font-family: var(--ament-font-mono); font-size: 12px; opacity: .75; }
+  .sw small { font-size: 12px; opacity: .75; margin-top: 6px; }
+  .minor { display: grid; gap: 10px; grid-template-columns: repeat(6, 1fr); margin-top: 16px; }
+  .minor .sw { min-height: 92px; padding: 12px; border-radius: 8px; }
+  .minor .sw b { font-size: 13px; }
+  .minor .sw code { font-size: 11px; }
+
+  .type { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { background: var(--ament-card); border-radius: 12px; box-shadow: 0 0 0 1px var(--ament-line), var(--ament-shadow-card); padding: 28px; }
+  .specimen { font-size: 64px; line-height: 1; margin: 24px 0 16px; }
+  .mono-specimen { font-family: var(--ament-font-mono); font-size: 34px; line-height: 1.1; margin: 24px 0 16px; }
+  .scale { margin-top: 16px; }
+  .scale div { display: grid; grid-template-columns: 120px 1fr; align-items: baseline; gap: 16px; padding: 14px 0; border-top: 1px solid var(--ament-line); }
+
+  .rules { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .rules ul { margin: 16px 0 0; padding: 0; list-style: none; }
+  .rules li { padding: 10px 0; border-top: 1px solid var(--ament-line); }
+  .rules li:first-child { border-top: 0; }
+  .do .eyebrow { color: var(--ament-ok); }
+  .dont .eyebrow { color: var(--ament-danger); }
+
+  footer { padding: 72px 0 56px; color: var(--ament-muted); font-size: 13px; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; border-top: 1px solid var(--ament-line); padding-top: 24px; }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .swatches { grid-template-columns: repeat(2, 1fr); }
+    .minor { grid-template-columns: repeat(3, 1fr); }
+    section > .wrap > header { grid-template-columns: 1fr; gap: 8px; }
+  }
+  @media (max-width: 600px) {
+    .wrap { padding: 0 16px; }
+    .grid, .type, .rules { grid-template-columns: 1fr; }
+    .hero .lockup { padding: 56px 0 40px; }
+    .specimen { font-size: 44px; }
+    .mono-specimen { font-size: 24px; }
+    .scale div { grid-template-columns: 1fr; gap: 4px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="bar"><span class="eyebrow">Brand kit</span><span class="eyebrow">v1.0.0</span></div>
+    <div class="lockup">
+      <img src="logos/svg/ament-lockup-horizontal-on-dark.svg" alt="AMENT" width="1199" height="364">
+      <h1 class="display">Advanced Materials &amp; Intelligence</h1>
+      <p>Logos, colours, typography and guidelines for AMENT and AMENT Hive. Quiet, precise, industrial. Restraint over decoration.</p>
+    </div>
+    <nav>
+      <a href="#logos">Logos</a><a href="#colour">Colour</a><a href="#type">Typography</a><a href="#usage">Usage</a>
+      <a href="guidelines/brand-guidelines.md">Guidelines</a><a href="README.md">Downloads</a>
+    </nav>
+  </div>
+</div>
+
+<section id="logos">
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">01 · Logos</div>
+      <div>
+        <h2 class="display">One mark, one wordmark</h2>
+        <p>A champagne ribbon arching into its folded green underside, crossed by a green band. Colour on graphite, mono ink on light. SVG plus PNG at 256 to 2048px.</p>
+      </div>
+    </header>
+    <div class="grid">
+      <div class="tile dark"><div class="art"><img src="logos/svg/ament-mark-color.svg" alt="AMENT mark, colour"></div><div class="meta"><span class="eyebrow">Mark · colour</span><span><a href="logos/svg/ament-mark-color.svg" download>SVG</a> · <a href="logos/png/ament-mark-color-1024.png" download>PNG</a></span></div></div>
+      <div class="tile dark"><div class="art"><img src="logos/svg/ament-lockup-horizontal-on-dark.svg" alt="AMENT horizontal lockup on dark"></div><div class="meta"><span class="eyebrow">Lockup · horizontal</span><span><a href="logos/svg/ament-lockup-horizontal-on-dark.svg" download>SVG</a> · <a href="logos/png/ament-lockup-horizontal-on-dark-1024.png" download>PNG</a></span></div></div>
+      <div class="tile dark"><div class="art"><img src="logos/svg/ament-hive-lockup-on-dark.svg" alt="AMENT Hive lockup on dark"></div><div class="meta"><span class="eyebrow">AMENT Hive</span><span><a href="logos/svg/ament-hive-lockup-on-dark.svg" download>SVG</a> · <a href="logos/png/ament-hive-lockup-on-dark-1024.png" download>PNG</a></span></div></div>
+      <div class="tile"><div class="art"><img src="logos/svg/ament-mark-mono-ink.svg" alt="AMENT mark, mono ink"></div><div class="meta"><span class="eyebrow">Mark · mono ink</span><span><a href="logos/svg/ament-mark-mono-ink.svg" download>SVG</a> · <a href="logos/png/ament-mark-mono-ink-1024.png" download>PNG</a></span></div></div>
+      <div class="tile"><div class="art"><img src="logos/svg/ament-lockup-horizontal-on-light.svg" alt="AMENT horizontal lockup on light"></div><div class="meta"><span class="eyebrow">Lockup · horizontal</span><span><a href="logos/svg/ament-lockup-horizontal-on-light.svg" download>SVG</a> · <a href="logos/png/ament-lockup-horizontal-on-light-1024.png" download>PNG</a></span></div></div>
+      <div class="tile"><div class="art"><img src="logos/svg/ament-hive-lockup-on-light.svg" alt="AMENT Hive lockup on light"></div><div class="meta"><span class="eyebrow">AMENT Hive</span><span><a href="logos/svg/ament-hive-lockup-on-light.svg" download>SVG</a> · <a href="logos/png/ament-hive-lockup-on-light-1024.png" download>PNG</a></span></div></div>
+      <div class="tile dark"><div class="art"><img src="logos/svg/ament-lockup-stacked-on-dark.svg" alt="AMENT stacked lockup on dark"></div><div class="meta"><span class="eyebrow">Lockup · stacked</span><span><a href="logos/svg/ament-lockup-stacked-on-dark.svg" download>SVG</a> · <a href="logos/png/ament-lockup-stacked-on-dark-1024.png" download>PNG</a></span></div></div>
+      <div class="tile"><div class="art"><img src="logos/svg/ament-wordmark-ink.svg" alt="AMENT wordmark, ink"></div><div class="meta"><span class="eyebrow">Wordmark</span><span><a href="logos/svg/ament-wordmark-ink.svg" download>SVG</a> · <a href="logos/png/ament-wordmark-ink-1024.png" download>PNG</a></span></div></div>
+      <div class="tile"><div class="art"><img src="logos/svg/ament-mark-color-flat.svg" alt="AMENT mark, flat colour"></div><div class="meta"><span class="eyebrow">Mark · flat, small sizes</span><span><a href="logos/svg/ament-mark-color-flat.svg" download>SVG</a> · <a href="logos/png/ament-mark-color-flat-1024.png" download>PNG</a></span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="colour">
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">02 · Colour</div>
+      <div>
+        <h2 class="display">Graphite, porcelain, champagne, moss</h2>
+        <p>Roughly 70% neutrals, 25% text and at most 5% accent. One accent per view. Champagne text only on graphite. On light, use champagne-deep.</p>
+      </div>
+    </header>
+    <div class="swatches">
+      <div class="sw" style="background:#0d0d0c;color:#efece6"><b>Graphite</b><code>#0D0D0C</code><small>Dark chrome</small></div>
+      <div class="sw" style="background:#efece6;color:#141412"><b>Porcelain</b><code>#EFECE6</code><small>Light canvas</small></div>
+      <div class="sw" style="background:#cdb89a;color:#141412"><b>Champagne</b><code>#CDB89A</code><small>The accent</small></div>
+      <div class="sw" style="background:#2c493d;color:#efece6"><b>Moss</b><code>#2C493D</code><small>Brand green</small></div>
+      <div class="sw" style="background:#141412;color:#efece6"><b>Ink</b><code>#141412</code><small>Text on light</small></div>
+      <div class="sw" style="background:#fbfaf7;color:#141412"><b>Card</b><code>#FBFAF7</code><small>Cards, inputs</small></div>
+      <div class="sw" style="background:#6f5d47;color:#efece6"><b>Champagne deep</b><code>#6F5D47</code><small>Accent text on light</small></div>
+      <div class="sw" style="background:#3f6152;color:#efece6"><b>Moss 2</b><code>#3F6152</code><small>Brand green, lighter</small></div>
+    </div>
+    <div class="minor">
+      <div class="sw" style="background:#161614;color:#efece6"><b>graphite-2</b><code>#161614</code></div>
+      <div class="sw" style="background:#22211e;color:#efece6"><b>graphite-3</b><code>#22211E</code></div>
+      <div class="sw" style="background:#3c3a35;color:#efece6"><b>ink-3</b><code>#3C3A35</code></div>
+      <div class="sw" style="background:#67625a;color:#efece6"><b>muted</b><code>#67625A</code></div>
+      <div class="sw" style="background:#7d776d;color:#efece6"><b>faint</b><code>#7D776D</code></div>
+      <div class="sw" style="background:#e5e1d8;color:#141412"><b>paper-2</b><code>#E5E1D8</code></div>
+      <div class="sw" style="background:#ddd8cd;color:#141412"><b>line</b><code>#DDD8CD</code></div>
+      <div class="sw" style="background:#c7c0b2;color:#141412"><b>line-strong</b><code>#C7C0B2</code></div>
+      <div class="sw" style="background:#f2ece2;color:#141412"><b>champagne-soft</b><code>#F2ECE2</code></div>
+      <div class="sw" style="background:#3a6b52;color:#efece6"><b>ok</b><code>#3A6B52</code></div>
+      <div class="sw" style="background:#2e5a78;color:#efece6"><b>info</b><code>#2E5A78</code></div>
+      <div class="sw" style="background:#a8432f;color:#efece6"><b>danger</b><code>#A8432F</code></div>
+    </div>
+    <p class="eyebrow" style="margin-top:20px">Download: <a href="colors/tokens.css">tokens.css</a> · <a href="colors/tailwind.css">tailwind.css</a> · <a href="colors/tokens.json">tokens.json</a> · <a href="colors/palette.ase" download>palette.ase</a> · <a href="colors/palette.gpl" download>palette.gpl</a></p>
+  </div>
+</section>
+
+<section id="type">
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">03 · Typography</div>
+      <div>
+        <h2 class="display">Archivo and IBM Plex Mono</h2>
+        <p>Archivo for everything, with a wide display cut for titles and numerals. IBM Plex Mono for data and spec-sheet labels. Both are open-source (SIL OFL 1.1).</p>
+      </div>
+    </header>
+    <div class="type">
+      <div class="card">
+        <div class="eyebrow">Archivo · display 118% · 600</div>
+        <div class="specimen display">AMENT Hive</div>
+        <p style="margin:0;color:var(--ament-muted)">Aa Bb Çç Ğğ Iı İi Öö Şş Üü 0123456789</p>
+        <p style="margin:12px 0 0"><a href="https://fonts.google.com/specimen/Archivo">Google Fonts →</a></p>
+      </div>
+      <div class="card">
+        <div class="eyebrow">IBM Plex Mono · 400 / 500</div>
+        <div class="mono-specimen">PLA · 215°C · L212</div>
+        <p style="margin:0;color:var(--ament-muted)" class="eyebrow">Spec-sheet eyebrow · 11px · +0.16em</p>
+        <p style="margin:12px 0 0"><a href="https://fonts.google.com/specimen/IBM+Plex+Mono">Google Fonts →</a></p>
+      </div>
+    </div>
+    <div class="card scale">
+      <div style="border-top:0"><span class="eyebrow">Title 28/34</span><span class="display" style="font-size:28px;line-height:1.08">Farm overview</span></div>
+      <div><span class="eyebrow">Heading 20</span><span class="display" style="font-size:20px">Printers</span></div>
+      <div><span class="eyebrow">Body 15</span><span>Printer 4 paused at layer 212: filament runout.</span></div>
+      <div><span class="eyebrow">Small 13</span><span style="font-size:13px;color:var(--ament-muted)">Last seen 2 minutes ago</span></div>
+      <div><span class="eyebrow">Eyebrow 11</span><span class="eyebrow">Job ID · 2026-10-16 14:20</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="usage">
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">04 · Usage</div>
+      <div>
+        <h2 class="display">Leave it alone, give it room</h2>
+        <p>Clear space equals the height of the wordmark on every side. Smallest sizes: mark 24px (16px flat or mono), wordmark 9px tall, horizontal lockup 120px wide.</p>
+      </div>
+    </header>
+    <div class="card" style="padding:0;overflow:hidden;margin-bottom:16px"><img src="previews/clear-space.png" alt="Clear space around the AMENT lockup" width="1600" height="700"></div>
+    <div class="rules">
+      <div class="card do">
+        <div class="eyebrow">Do</div>
+        <ul>
+          <li>Use the supplied files and scale them proportionally.</li>
+          <li>Use the colour mark on graphite or calm dark surfaces.</li>
+          <li>Use the mono ink mark on light and busy backgrounds.</li>
+          <li>Write "AMENT Hive" first, then "Hive".</li>
+        </ul>
+      </div>
+      <div class="card dont">
+        <div class="eyebrow">Don't</div>
+        <ul>
+          <li>Recolour, stretch, rotate or re-proportion the logo.</li>
+          <li>Add shadows, glows, outlines, bevels or 3D effects.</li>
+          <li>Retype "AMENT" in a font or add a crossbar to the A.</li>
+          <li>Use the retired honey-yellow hexagon.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 AMENT. Logos and marks: all rights reserved. Tokens and code: MIT. <a href="LICENSE">Licence</a></span>
+    <span><a href="mailto:support@ament.ai">support@ament.ai</a> · <a href="https://ament.ai">ament.ai</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

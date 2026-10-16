@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 364" width="480" height="364" role="img" aria-labelledby="title">
+<title id="title">AMENT</title>
+<g>
+  <path fill="#ffffff" d="M168 2 H266 C279 2 287 8 292 17 L480 362 H390 Z"/>
+  <path fill="#ffffff" fill-opacity="0.7" d="M238 214 C 264 262, 302 334, 358 362 L 322 362 C 286 346, 250 294, 222 252 C 210 236, 196 226, 182 222 C 196 205, 214 199, 238 214 Z"/>
+  <path fill="#ffffff" d="M4 362 C 52 328, 108 196, 138 142 C 150 120, 176 115, 190 134 L 238 214 C 214 199, 196 205, 182 222 C 150 262, 112 328, 66 362 Z"/>
+</g>
+</svg>

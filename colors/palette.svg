@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 888" width="1200" height="888">
+<rect width="1200" height="888" fill="#fbfaf7"/>
+<text x="48" y="64" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13" letter-spacing="2" fill="#67625a">AMENT — COLOUR PALETTE v1.0</text>
+<rect x="48" y="96" width="264" height="180" rx="12" fill="#0d0d0c"/>
+<text x="68" y="232" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#efece6">graphite</text>
+<text x="68" y="256" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#efece6" fill-opacity="0.75">#0D0D0C</text>
+<rect x="328" y="96" width="264" height="180" rx="12" fill="#141412"/>
+<text x="348" y="232" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#efece6">ink</text>
+<text x="348" y="256" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#efece6" fill-opacity="0.75">#141412</text>
+<rect x="608" y="96" width="264" height="180" rx="12" fill="#efece6" stroke="#ddd8cd"/>
+<text x="628" y="232" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#141412">paper</text>
+<text x="628" y="256" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#141412" fill-opacity="0.75">#EFECE6</text>
+<rect x="888" y="96" width="264" height="180" rx="12" fill="#fbfaf7" stroke="#ddd8cd"/>
+<text x="908" y="232" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#141412">card</text>
+<text x="908" y="256" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#141412" fill-opacity="0.75">#FBFAF7</text>
+<rect x="48" y="292" width="264" height="180" rx="12" fill="#cdb89a"/>
+<text x="68" y="428" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#141412">champagne</text>
+<text x="68" y="452" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#141412" fill-opacity="0.75">#CDB89A</text>
+<rect x="328" y="292" width="264" height="180" rx="12" fill="#6f5d47"/>
+<text x="348" y="428" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#efece6">champagne-deep</text>
+<text x="348" y="452" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#efece6" fill-opacity="0.75">#6F5D47</text>
+<rect x="608" y="292" width="264" height="180" rx="12" fill="#2c493d"/>
+<text x="628" y="428" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#efece6">moss</text>
+<text x="628" y="452" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#efece6" fill-opacity="0.75">#2C493D</text>
+<rect x="888" y="292" width="264" height="180" rx="12" fill="#3f6152"/>
+<text x="908" y="428" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#efece6">moss-2</text>
+<text x="908" y="452" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#efece6" fill-opacity="0.75">#3F6152</text>
+<rect x="48" y="512" width="174" height="100" rx="8" fill="#161614"/>
+<text x="62" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">graphite-2</text>
+<text x="62" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#161614</text>
+<rect x="234" y="512" width="174" height="100" rx="8" fill="#22211e"/>
+<text x="248" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">graphite-3</text>
+<text x="248" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#22211E</text>
+<rect x="420" y="512" width="174" height="100" rx="8" fill="#22211e"/>
+<text x="434" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">ink-2</text>
+<text x="434" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#22211E</text>
+<rect x="606" y="512" width="174" height="100" rx="8" fill="#3c3a35"/>
+<text x="620" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">ink-3</text>
+<text x="620" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#3C3A35</text>
+<rect x="792" y="512" width="174" height="100" rx="8" fill="#e5e1d8" stroke="#ddd8cd"/>
+<text x="806" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">paper-2</text>
+<text x="806" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#E5E1D8</text>
+<rect x="978" y="512" width="174" height="100" rx="8" fill="#ddd8cd"/>
+<text x="992" y="580" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">line</text>
+<text x="992" y="598" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#DDD8CD</text>
+<rect x="48" y="624" width="174" height="100" rx="8" fill="#c7c0b2"/>
+<text x="62" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">line-strong</text>
+<text x="62" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#C7C0B2</text>
+<rect x="234" y="624" width="174" height="100" rx="8" fill="#67625a"/>
+<text x="248" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">muted</text>
+<text x="248" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#67625A</text>
+<rect x="420" y="624" width="174" height="100" rx="8" fill="#7d776d"/>
+<text x="434" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">faint</text>
+<text x="434" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#7D776D</text>
+<rect x="606" y="624" width="174" height="100" rx="8" fill="#f2ece2" stroke="#ddd8cd"/>
+<text x="620" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">champagne-soft</text>
+<text x="620" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#F2ECE2</text>
+<rect x="792" y="624" width="174" height="100" rx="8" fill="#e3ebe6" stroke="#ddd8cd"/>
+<text x="806" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">moss-soft</text>
+<text x="806" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#E3EBE6</text>
+<rect x="978" y="624" width="174" height="100" rx="8" fill="#3a6b52"/>
+<text x="992" y="692" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">ok</text>
+<text x="992" y="710" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#3A6B52</text>
+<rect x="48" y="736" width="174" height="100" rx="8" fill="#e3ede6" stroke="#ddd8cd"/>
+<text x="62" y="804" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">ok-soft</text>
+<text x="62" y="822" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#E3EDE6</text>
+<rect x="234" y="736" width="174" height="100" rx="8" fill="#2e5a78"/>
+<text x="248" y="804" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">info</text>
+<text x="248" y="822" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#2E5A78</text>
+<rect x="420" y="736" width="174" height="100" rx="8" fill="#e3ebf1" stroke="#ddd8cd"/>
+<text x="434" y="804" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">info-soft</text>
+<text x="434" y="822" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#E3EBF1</text>
+<rect x="606" y="736" width="174" height="100" rx="8" fill="#a8432f"/>
+<text x="620" y="804" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#efece6">danger</text>
+<text x="620" y="822" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#efece6" fill-opacity="0.75">#A8432F</text>
+<rect x="792" y="736" width="174" height="100" rx="8" fill="#f5e5df" stroke="#ddd8cd"/>
+<text x="806" y="804" font-family="Archivo, Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#141412">danger-soft</text>
+<text x="806" y="822" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12" fill="#141412" fill-opacity="0.75">#F5E5DF</text>
+</svg>

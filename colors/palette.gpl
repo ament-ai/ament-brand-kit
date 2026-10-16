@@ -1,0 +1,38 @@
+GIMP Palette
+Name: AMENT
+Columns: 5
+#
+ 13  13  12	graphite
+ 22  22  20	graphite-2
+ 34  33  30	graphite-3
+ 20  20  18	ink
+ 34  33  30	ink-2
+ 60  58  53	ink-3
+239 236 230	paper
+229 225 216	paper-2
+251 250 247	card
+221 216 205	line
+199 192 178	line-strong
+103  98  90	muted
+125 119 109	faint
+205 184 154	champagne
+111  93  71	champagne-deep
+242 236 226	champagne-soft
+ 44  73  61	moss
+ 63  97  82	moss-2
+227 235 230	moss-soft
+ 58 107  82	ok
+227 237 230	ok-soft
+ 46  90 120	info
+227 235 241	info-soft
+168  67  47	danger
+245 229 223	danger-soft
+239 227 209	mark-champagne-light
+201 180 150	mark-champagne-mid
+141 122  98	mark-champagne-dark
+ 63  97  82	mark-green-light
+ 44  73  61	mark-green-mid
+ 29  50  41	mark-green-dark
+ 70 105  90	mark-flat-band
+ 44  73  61	mark-flat-fold
+214 196 166	mark-flat-arch

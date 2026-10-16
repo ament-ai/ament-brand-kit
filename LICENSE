@@ -1,0 +1,62 @@
+AMENT Brand Kit — Licence
+
+Copyright (c) 2026 AMENT İleri Malzemeler ve Yapay Zeka Teknolojileri
+Sanayi ve Ticaret Limited Şirketi ("AMENT").
+
+------------------------------------------------------------------------
+1. LOGOS, MARKS AND BRAND ASSETS: ALL RIGHTS RESERVED
+------------------------------------------------------------------------
+
+The following are trademarks and/or copyrighted works of AMENT and are NOT
+licensed under the MIT License below:
+
+  - the name "AMENT" and the name "AMENT Hive";
+  - the AMENT mark, the AMENT wordmark and all lockups, including every file
+    in logos/ (svg/, png/ and source/), app-icons/ and previews/;
+  - the brand guidelines text in guidelines/ and typography/.
+
+All rights reserved. You may use the logo files, unmodified, solely to refer
+to AMENT or to AMENT Hive, for example in press coverage, partner or customer
+listings, and integration directories. You may not:
+
+  - modify, recolour, distort, animate or combine the logos with other marks;
+  - use them as, or as part of, your own logo, product name or branding;
+  - use them in any way that suggests sponsorship, endorsement or affiliation
+    by AMENT without prior written permission.
+
+Permission requests: support@ament.ai
+
+------------------------------------------------------------------------
+2. CODE AND DESIGN TOKENS: MIT LICENSE
+------------------------------------------------------------------------
+
+The files colors/tokens.json, colors/tokens.css, colors/tailwind.css,
+colors/palette.gpl, colors/palette.ase and index.html (excluding the logo
+artwork they reference or embed) are licensed as follows:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------------------------------
+3. FONTS
+------------------------------------------------------------------------
+
+No font files are distributed in this repository. Archivo and IBM Plex Mono
+are available from their authors under the SIL Open Font License 1.1.
+The "Hive" lettering in the AMENT Hive lockup is outlined from Archivo
+(SIL OFL 1.1) as part of the logo artwork.

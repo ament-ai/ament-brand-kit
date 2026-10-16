@@ -1,0 +1,57 @@
+/* AMENT palette for Tailwind CSS v4 — paste into your main stylesheet after @import "tailwindcss".
+ * Mirrors the @theme block used by AMENT Hive. Load Archivo and IBM Plex Mono yourself
+ * (e.g. next/font or Google Fonts) and point --font-archivo / --font-plex-mono at them. */
+@theme {
+  --color-graphite: #0d0d0c;
+  --color-graphite-2: #161614;
+  --color-graphite-3: #22211e;
+  --color-ink: #141412;
+  --color-ink-2: #22211e;
+  --color-ink-3: #3c3a35;
+  --color-paper: #efece6;
+  --color-paper-2: #e5e1d8;
+  --color-card: #fbfaf7;
+  --color-line: #ddd8cd;
+  --color-line-strong: #c7c0b2;
+  --color-muted: #67625a;
+  --color-faint: #7d776d;
+  --color-champagne: #cdb89a;
+  --color-champagne-deep: #6f5d47;
+  --color-champagne-soft: #f2ece2;
+  --color-moss: #2c493d;
+  --color-moss-2: #3f6152;
+  --color-moss-soft: #e3ebe6;
+  --color-ok: #3a6b52;
+  --color-ok-soft: #e3ede6;
+  --color-info: #2e5a78;
+  --color-info-soft: #e3ebf1;
+  --color-danger: #a8432f;
+  --color-danger-soft: #f5e5df;
+
+  --font-sans: var(--font-archivo, "Archivo"), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono, "IBM Plex Mono"), ui-monospace, monospace;
+
+  --shadow-card: 0 1px 0 rgb(20 20 18 / 0.04), 0 1px 2px rgb(20 20 18 / 0.04);
+  --shadow-lift: 0 1px 0 rgb(20 20 18 / 0.04), 0 8px 24px -8px rgb(20 20 18 / 0.14);
+}
+
+/* Display type: page titles, big numerals, product names. */
+@utility font-display {
+  font-family: var(--font-sans);
+  font-stretch: 118%;
+  letter-spacing: -0.02em;
+}
+
+/* Spec-sheet eyebrow: IBM Plex Mono, uppercase, wide tracking. */
+@utility t-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Hairline in the colour of the surrounding text: `border-t hairline`. */
+@utility hairline {
+  border-color: color-mix(in oklab, currentColor 14%, transparent);
+}

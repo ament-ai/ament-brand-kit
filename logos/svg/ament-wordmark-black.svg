@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 548 108" width="548" height="108" role="img" aria-labelledby="title">
+<title id="title">AMENT</title>
+<g>
+  <g fill="none" stroke="#000000" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt">
+    <path d="M2 100 L46 2 L90 100"/>
+    <path d="M122 100 V4 L170 70 L218 4 V100"/>
+    <path d="M312 4 H252 V100 H312 M252 52 H298"/>
+    <path d="M346 100 V4 L424 100 V4"/>
+    <path d="M456 4 H540 M498 4 V100"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+<defs>
+  <linearGradient id="ament-champagne" x1="0" y1="0" x2="0.9" y2="1">
+    <stop offset="0" stop-color="#efe3d1"/><stop offset="0.45" stop-color="#c9b496"/><stop offset="1" stop-color="#8d7a62"/>
+  </linearGradient>
+  <linearGradient id="ament-green" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#3f6152"/><stop offset="0.6" stop-color="#2c493d"/><stop offset="1" stop-color="#1d3229"/>
+  </linearGradient>
+</defs>
+<rect width="180" height="180" fill="#0d0d0c"/>
+<g transform="translate(26.000 41.467) scale(0.26667)">
+  <path fill="url(#ament-green)" d="M168 2 H266 C279 2 287 8 292 17 L480 362 H390 Z"/>
+  <path fill="url(#ament-green)" d="M238 214 C 264 262, 302 334, 358 362 L 322 362 C 286 346, 250 294, 222 252 C 210 236, 196 226, 182 222 C 196 205, 214 199, 238 214 Z"/>
+  <path fill="url(#ament-champagne)" d="M4 362 C 52 328, 108 196, 138 142 C 150 120, 176 115, 190 134 L 238 214 C 214 199, 196 205, 182 222 C 150 262, 112 328, 66 362 Z"/>
+</g>
+</svg>
